@@ -45,7 +45,7 @@ async function printSkills(){
 
 
     try {
-        const skills = await getJsonData("gurps_skills.json");
+        const skills = await getJsonData("/static/gurps_skills.json");
         skillsElm.append(...skills.map(createSkillCard))
     } catch (err) {
         console.error(err);
