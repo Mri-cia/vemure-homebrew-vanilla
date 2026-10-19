@@ -1,0 +1,530 @@
+[
+  {
+    "skill_name": "Acrobatics",
+    "attribute": "DX",
+    "difficulty": "Hard",
+    "notes": "Flips, rolls, and balance; helps with dodging falls"
+  },
+  {
+    "skill_name": "Acting",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Feigning emotions and playing a role"
+  },
+  {
+    "skill_name": "Animal Handling",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Specialization required (e.g. Dogs, Equines)"
+  },
+  {
+    "skill_name": "Area Knowledge",
+    "attribute": "IQ",
+    "difficulty": "Easy",
+    "notes": "Familiarity with a specific place; specialization required"
+  },
+  {
+    "skill_name": "Armoury",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Maintaining and repairing weapons and armor; specialization required"
+  },
+  {
+    "skill_name": "Artist",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Visual art such as painting or sculpture; specialization required"
+  },
+  {
+    "skill_name": "Axe/Mace",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Melee combat with axes, maces, and similar weapons"
+  },
+  {
+    "skill_name": "Bard",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Public speaking and oratory"
+  },
+  {
+    "skill_name": "Bow",
+    "attribute": "DX",
+    "difficulty": "Hard",
+    "notes": "Shooting bows"
+  },
+  {
+    "skill_name": "Boxing",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Punching technique that improves damage and parries"
+  },
+  {
+    "skill_name": "Brawling",
+    "attribute": "DX",
+    "difficulty": "Easy",
+    "notes": "Basic unarmed fighting"
+  },
+  {
+    "skill_name": "Broadsword",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Melee combat with swords such as broadswords and sabers"
+  },
+  {
+    "skill_name": "Camouflage",
+    "attribute": "IQ",
+    "difficulty": "Easy",
+    "notes": "Hiding people and objects in the environment"
+  },
+  {
+    "skill_name": "Carousing",
+    "attribute": "HT",
+    "difficulty": "Easy",
+    "notes": "Socializing, drinking, and making contacts"
+  },
+  {
+    "skill_name": "Carpentry",
+    "attribute": "IQ",
+    "difficulty": "Easy",
+    "notes": "Building and repairing wooden structures"
+  },
+  {
+    "skill_name": "Climbing",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Scaling walls, cliffs, and ropes"
+  },
+  {
+    "skill_name": "Computer Operation",
+    "attribute": "IQ",
+    "difficulty": "Easy",
+    "notes": "General use of computers and software"
+  },
+  {
+    "skill_name": "Connoisseur",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Appreciation of a field such as wine or art; specialization required"
+  },
+  {
+    "skill_name": "Cooking",
+    "attribute": "IQ",
+    "difficulty": "Easy",
+    "notes": "Preparing food"
+  },
+  {
+    "skill_name": "Crossbow",
+    "attribute": "DX",
+    "difficulty": "Easy",
+    "notes": "Shooting crossbows"
+  },
+  {
+    "skill_name": "Current Affairs",
+    "attribute": "IQ",
+    "difficulty": "Easy",
+    "notes": "Awareness of news and events; specialization required"
+  },
+  {
+    "skill_name": "Dancing",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Social and performance dance"
+  },
+  {
+    "skill_name": "Detect Lies",
+    "attribute": "Per",
+    "difficulty": "Hard",
+    "notes": "Spotting deception in others"
+  },
+  {
+    "skill_name": "Diagnosis",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Identifying illness; specialization required"
+  },
+  {
+    "skill_name": "Diplomacy",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Negotiation and settling disputes"
+  },
+  {
+    "skill_name": "Disguise",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Altering appearance; specialization required"
+  },
+  {
+    "skill_name": "Driving",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Operating ground vehicles; specialization required"
+  },
+  {
+    "skill_name": "Electronics Operation",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Using electronic equipment; specialization required"
+  },
+  {
+    "skill_name": "Engineer",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Design and construction; specialization required"
+  },
+  {
+    "skill_name": "Escape",
+    "attribute": "DX",
+    "difficulty": "Hard",
+    "notes": "Slipping free of ropes, cuffs, and holds"
+  },
+  {
+    "skill_name": "Fast-Draw",
+    "attribute": "DX",
+    "difficulty": "Easy",
+    "notes": "Quickly readying weapons or ammo; specialization required"
+  },
+  {
+    "skill_name": "Fast-Talk",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Fast deception and persuasion"
+  },
+  {
+    "skill_name": "First Aid",
+    "attribute": "IQ",
+    "difficulty": "Easy",
+    "notes": "Emergency treatment of wounds"
+  },
+  {
+    "skill_name": "Forensics",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Analyzing crime-scene evidence"
+  },
+  {
+    "skill_name": "Gambling",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Games of chance and odds"
+  },
+  {
+    "skill_name": "Gunner",
+    "attribute": "DX",
+    "difficulty": "Easy",
+    "notes": "Crew-served and mounted weapons; specialization required"
+  },
+  {
+    "skill_name": "Guns",
+    "attribute": "DX",
+    "difficulty": "Easy",
+    "notes": "Firearms use; specialization required (e.g. Pistol, Rifle)"
+  },
+  {
+    "skill_name": "Hazardous Materials",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Safe handling of dangerous substances; specialization required"
+  },
+  {
+    "skill_name": "Hidden Lore",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Knowledge of secret or supernatural topics; specialization required"
+  },
+  {
+    "skill_name": "Hiking",
+    "attribute": "HT",
+    "difficulty": "Average",
+    "notes": "Long-distance travel on foot"
+  },
+  {
+    "skill_name": "History",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Knowledge of past events; specialization required"
+  },
+  {
+    "skill_name": "Holdout",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Concealing items on one's person or in a space"
+  },
+  {
+    "skill_name": "Interrogation",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Extracting information from a subject"
+  },
+  {
+    "skill_name": "Intimidation",
+    "attribute": "Will",
+    "difficulty": "Average",
+    "notes": "Frightening others into compliance"
+  },
+  {
+    "skill_name": "Judo",
+    "attribute": "DX",
+    "difficulty": "Hard",
+    "notes": "Throws and grappling martial art"
+  },
+  {
+    "skill_name": "Jumping",
+    "attribute": "DX",
+    "difficulty": "Easy",
+    "notes": "Leaping farther or higher"
+  },
+  {
+    "skill_name": "Karate",
+    "attribute": "DX",
+    "difficulty": "Hard",
+    "notes": "Striking martial art with strong kicks and punches"
+  },
+  {
+    "skill_name": "Knife",
+    "attribute": "DX",
+    "difficulty": "Easy",
+    "notes": "Fighting with knives and daggers"
+  },
+  {
+    "skill_name": "Law",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Legal knowledge; specialization required"
+  },
+  {
+    "skill_name": "Leadership",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Directing and motivating groups"
+  },
+  {
+    "skill_name": "Lip Reading",
+    "attribute": "Per",
+    "difficulty": "Average",
+    "notes": "Understanding speech by watching lips"
+  },
+  {
+    "skill_name": "Lockpicking",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Opening locks without keys; specialization required"
+  },
+  {
+    "skill_name": "Mathematics",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Advanced math; specialization required"
+  },
+  {
+    "skill_name": "Mechanic",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Repairing machinery; specialization required"
+  },
+  {
+    "skill_name": "Meditation",
+    "attribute": "Will",
+    "difficulty": "Hard",
+    "notes": "Calming the mind and focusing inwardly"
+  },
+  {
+    "skill_name": "Merchant",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Buying, selling, and appraising goods"
+  },
+  {
+    "skill_name": "Naturalist",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Knowledge of plants, animals, and ecosystems; specialization required"
+  },
+  {
+    "skill_name": "Navigation",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Finding position and route; specialization required"
+  },
+  {
+    "skill_name": "Observation",
+    "attribute": "Per",
+    "difficulty": "Average",
+    "notes": "Noticing details and watching targets"
+  },
+  {
+    "skill_name": "Occultism",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Knowledge of the occult and mystic beliefs"
+  },
+  {
+    "skill_name": "Physician",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Long-term medical care; specialization required"
+  },
+  {
+    "skill_name": "Pickpocket",
+    "attribute": "DX",
+    "difficulty": "Hard",
+    "notes": "Stealing items from a person unnoticed"
+  },
+  {
+    "skill_name": "Piloting",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Flying aircraft; specialization required"
+  },
+  {
+    "skill_name": "Psychology",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Understanding mind and behavior; specialization required"
+  },
+  {
+    "skill_name": "Research",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Finding information in libraries and databases"
+  },
+  {
+    "skill_name": "Riding",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Riding mounts; specialization required"
+  },
+  {
+    "skill_name": "Running",
+    "attribute": "HT",
+    "difficulty": "Average",
+    "notes": "Improves running speed and endurance"
+  },
+  {
+    "skill_name": "Savoir-Faire",
+    "attribute": "IQ",
+    "difficulty": "Easy",
+    "notes": "Etiquette in a social setting; specialization required"
+  },
+  {
+    "skill_name": "Scrounging",
+    "attribute": "Per",
+    "difficulty": "Easy",
+    "notes": "Finding useful items and spare parts"
+  },
+  {
+    "skill_name": "Search",
+    "attribute": "Per",
+    "difficulty": "Average",
+    "notes": "Finding hidden objects or people on close inspection"
+  },
+  {
+    "skill_name": "Shadowing",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Following someone without being noticed"
+  },
+  {
+    "skill_name": "Shield",
+    "attribute": "DX",
+    "difficulty": "Easy",
+    "notes": "Using shields to block and bash"
+  },
+  {
+    "skill_name": "Shortsword",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Fighting with short swords and similar blades"
+  },
+  {
+    "skill_name": "Singing",
+    "attribute": "HT",
+    "difficulty": "Easy",
+    "notes": "Vocal performance"
+  },
+  {
+    "skill_name": "Smith",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Metalworking; specialization required"
+  },
+  {
+    "skill_name": "Spear",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Fighting with spears and similar polearms"
+  },
+  {
+    "skill_name": "Stealth",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Moving quietly and staying unseen"
+  },
+  {
+    "skill_name": "Strategy",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Large-scale military planning; specialization required"
+  },
+  {
+    "skill_name": "Streetwise",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Navigating urban underworld and finding contacts"
+  },
+  {
+    "skill_name": "Surgery",
+    "attribute": "IQ",
+    "difficulty": "Very Hard",
+    "notes": "Operative medical procedures; specialization required"
+  },
+  {
+    "skill_name": "Survival",
+    "attribute": "Per",
+    "difficulty": "Average",
+    "notes": "Staying alive in the wild; specialization required"
+  },
+  {
+    "skill_name": "Swimming",
+    "attribute": "HT",
+    "difficulty": "Easy",
+    "notes": "Moving through water"
+  },
+  {
+    "skill_name": "Tactics",
+    "attribute": "IQ",
+    "difficulty": "Hard",
+    "notes": "Small-unit combat planning"
+  },
+  {
+    "skill_name": "Teaching",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Instructing others"
+  },
+  {
+    "skill_name": "Throwing",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Hurling objects accurately"
+  },
+  {
+    "skill_name": "Tracking",
+    "attribute": "Per",
+    "difficulty": "Average",
+    "notes": "Following trails and signs"
+  },
+  {
+    "skill_name": "Wrestling",
+    "attribute": "DX",
+    "difficulty": "Average",
+    "notes": "Grappling and pinning opponents"
+  },
+  {
+    "skill_name": "Writing",
+    "attribute": "IQ",
+    "difficulty": "Average",
+    "notes": "Composing prose and written works"
+  }
+]
