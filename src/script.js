@@ -134,3 +134,4 @@ function showHidden(){
 printSkills()
 printTraits()
 changeTraitFilter()
+showHidden()
