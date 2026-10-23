@@ -36,12 +36,12 @@
     </header>
     
     <nav class="my-6 mx-8 grid grid-cols-3 border border-[rgb(var(--accent-color),0.5)]">
-        <div class="active">Advantage</div>
-        <div>Disadvantage</div>
-        <div>Quirk</div>
+        <div class="active" data-filter="advantage">Advantage</div>
+        <div data-filter="disadvantage">Disadvantage</div>
+        <div data-filter="quirk">Quirk</div>
     </nav>
     <main>
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 px-8">
+        <div id="trait-list" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 px-8">
             <div class="card-wrap">
                 <div class="card">
                     <h4>
@@ -63,5 +63,7 @@
             </span>
         </a>
     </main>
+    
+<script type="module" src="script.js"></script>
 </body>
 </html>
