@@ -87,7 +87,7 @@ async function printSkills(){
 }
 
 function filterTraits(trait){
-    const currentActive = document.querySelector('.active')?.getAttribute("data-filter")
+    const currentActive = document.querySelector('#active')?.getAttribute("data-filter")
     console.log(currentActive)
     return trait.category === currentActive;
 }
@@ -109,12 +109,21 @@ async function printTraits(){
 
 
 
-function changeTraitFilter(nextFilter){
-    const currentActive = $('.active')
+function changeTraitFilter(){ 
 
+    $('.trait-filter').click(function(){
+
+        if($('#active').attr('data-filter') !== $(this).attr('data-filter')){
+            $('#active').removeAttr('id')
+            $(this).attr('id', 'active')
+            printTraits()
+        }
+
+    })
     
 }
 
 
 printSkills()
 printTraits()
+changeTraitFilter()

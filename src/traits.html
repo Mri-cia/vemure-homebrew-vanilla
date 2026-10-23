@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="output.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="module" src="script.js"></script>
 </head>
 <style>
     nav div {
@@ -22,7 +24,7 @@
         transition: 0.3s;
     }
 
-    nav div.active {
+    nav div#active {
         background-color: rgb(var(--accent-color));
         color: rgb(var(--primary-color));
     }
@@ -36,9 +38,9 @@
     </header>
     
     <nav class="my-6 mx-8 grid grid-cols-3 border border-[rgb(var(--accent-color),0.5)]">
-        <div class="active" data-filter="advantage">Advantage</div>
-        <div data-filter="disadvantage">Disadvantage</div>
-        <div data-filter="quirk">Quirk</div>
+        <div class="trait-filter" id="active" data-filter="advantage">Advantage</div>
+        <div class="trait-filter" data-filter="disadvantage">Disadvantage</div>
+        <div class="trait-filter" data-filter="quirk">Quirk</div>
     </nav>
     <main>
         <div id="trait-list" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 px-8">
@@ -64,6 +66,5 @@
         </a>
     </main>
     
-<script type="module" src="script.js"></script>
 </body>
 </html>
