@@ -123,6 +123,13 @@ function changeTraitFilter(){
     
 }
 
+function showHidden(){
+    $('hidden-content').hide()
+    $('card').hover(function(){
+        $('hidden-content').show()
+    })
+}
+
 
 printSkills()
 printTraits()
