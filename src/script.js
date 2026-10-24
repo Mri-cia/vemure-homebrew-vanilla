@@ -130,8 +130,29 @@ function showHidden(){
     })
 }
 
+function validateForm(){
+    $('form.card-form').on('submit', function (e) {
+        let hasEmpty = false;
+
+        $(this).find('input[type="text"], textarea').each(function () {
+            const empty = $(this).val().trim() === '';
+            $(this).toggleClass('invalid', empty);   // highlight empty fields
+            if (empty) hasEmpty = true;
+        });
+
+        if (hasEmpty) {
+            e.preventDefault();                       // stop submit
+            $('#warning-text').text('Fill the fields!!!');
+        } else {
+            $('#warning-text').text('');
+        }
+    });
+}
+
 
 printSkills()
 printTraits()
 changeTraitFilter()
 showHidden()
+
+validateForm()
